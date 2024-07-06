@@ -1,0 +1,108 @@
+/*(c) Musab Alsayed / MID-END*/
+
+body {
+  background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.todo-app {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.header {
+  font-size: 24px;
+}
+
+.new-item-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  width: 100%;
+}
+
+#item {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.add-btn {
+  background: #6a11cb;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.add-btn .fa-plus {
+  font-size: 18px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-item {
+  background: #f9f9f9;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-label {
+  display: flex;
+  align-items: center;
+}
+
+.todo-label input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.btn-danger {
+  background: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-danger .fa-trash {
+  font-size: 14px;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.clear-all {
+  background: #6a11cb;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 70px;
+}
